@@ -10,7 +10,7 @@ const imageSearch = async (mainTopic) => {
     const params = {
       "engine": "google_images",
       "q": mainTopic,
-      "api_key": "uEerThKus1b3ZAQp1a5cAcbn"
+      "api_key": "pjBrkJcRYBUfBj6RGu4C5DB9"
     };
 
     const response = await axios.get(url, { params });

@@ -32,3 +32,18 @@ code {
     monospace;
 }
 
+.keywords {
+  text-decoration: underline !important;
+  color: #6D55FF;
+  display: inline !important;
+}
+
+.keywords:hover {
+  color: black !important;
+  cursor: pointer;
+}
+
+pre {
+  display: inline !important;
+}
+
