@@ -13,7 +13,7 @@ const qaGeneration = async (mainTopic) => {
                 z.object(
                     {
                     question: z.string().describe("question generated from given topic"),
-                    answer: z.string().describe("answer to the question generated"),
+                    answer: z.string().describe("answer to the question generated, wrap the resulting answer in a String object."),
                     }
                 )
             ).describe("array of questions")
